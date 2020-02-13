@@ -1,6 +1,6 @@
 # Disaster or not? NLP with tweets
 
-The ubiquitousness of mobile phones enables people to share everything on the go through platforms like Twitter. Amogst all other purposes of tweets, it is also used to share an emergency/disaster. 
+The ubiquitousness of mobile phones enables people to share everything on the go through platforms like Twitter. Amongst all other purposes of tweets, it is also used to share an emergency/disaster. 
 
 Let's assume the following tweets: 
 
