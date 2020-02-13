@@ -1,11 +1,13 @@
-# Disaster or not? NLP with tweets
+# Data Cleaning
 
-The ubiquitousness of mobile phones enables people to share everything on the go through platforms like Twitter. Amogst all other purposes of tweets, it is also used to share an emergency/disaster. 
+It is imperative to clean the dataset before it is used for modelling. The following processes/changes were made to the data at this stage:
 
-Let's assume the following tweets: 
+1. Standardization: All text was changed to lower case. 
+2. Removing incosistencies and irrelavent information such as punctuations, words with numbers, website links, special characters etc.
+3. Tokenizing: Splitting text into minimal meaninful units (individual words)
+4. Removing stopwords: Getting rid of words which are used extensively and do not add contextual walue to the sentence.
+5. Part-of-Speech Tagging: Assiging special label assigned to each word(token) in corpus to indicate the part-of-speech the belong to such as noun, verb etc.
+6. Lemmatizing: Grouping different inflected forms of a word that essentially mean the same example: car, cars, car's become car
 
-"Never let the fire die inside of you"
-
-"The forest fire continues to haunt the country"
-
-While both these tweets uses the word "fire", the context is totally different. This NLP project aims to predict whether a tweet describes a real disaster or not. 
+The above processes were performed on both training and testing data and the result were saved as csv to be used for exploratory data analysis and data modelling.
+ 
