@@ -8,4 +8,5 @@ The wrangled dataset is used in this section to perfrom Expoloratory Data Analys
 
 # Exploratory Data Analysis
 
-![](images/Keywords%20with%20least%20disasters)
+![](images/Keywords%20with%20least%20disasters.png
+)
