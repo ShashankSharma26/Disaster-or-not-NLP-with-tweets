@@ -37,3 +37,15 @@ At this step, Sklearn Pipeline is used to:
 The fitted model is then used to predict the test labels. The predicted test labels are then compared to the true test labels using F score and Area under ROC curve. The result from the models are displayed in the the roc curves diagrams below.
 
 ![](images/ADA.png)
+
+![](images/Decision%20Tree.png)
+
+![](images/Extra%20trees.png)
+
+![](images/Gradient%20Boosting.png)
+
+![](images/Logistic%20Regression.png)
+
+![](images/Random%20Forest.png)
+
+![](images/SGD.png)
